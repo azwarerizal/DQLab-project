@@ -1,25 +1,25 @@
-<br />
+![App Screenshot](https://user-images.githubusercontent.com/118737997/205849089-5e886c94-0d99-4107-acb0-a87c956988a6.png)
 
-<p align="center">
-  <a href='https://academy.dqlab.id/main/learn_more'><img src="README/DQ_Lab2.png"></a>
-</p>
 
-<br />
+## Project Data Engineer/Analyst
 
-<p align="justify">
-  Berikut ini adalah project-project yang dikerjakan di DQLab beserta soal-soal latihan yang fundamental
-</p>
+Berikut adalah project-project latihan yang dikerjakan melalui beberapa platform
+seperti Udemy, MySkill, DQLab
 
-![Hal]
 
-<p align="justify">
-  Di DQLab, terdapat menu <b>Learn</b> dimana kita bisa belajar materi yang disajikan dengan sangat lengkap dan runtut, sehingga tidak perlu bingung mau mulai dari mana. Kemudian terdapat juga beberapa <b>Project</b> yang dibuat berdasarkan kasus di lapangan, jadi kita bisa belajar dan merasakan langsung peran dari seorang praktisi data. Tidak lupa juga terdapat <b>Career Track</b> yang bisa menjadi awal bagi kita dalam memulai karir di bidang data.
-</p>
+## Materi
 
-<p align="justify">
-  Repositori ini saya gunakan untuk menyimpan dan membagikan data sebagai hasil dari belajar dan mengerjakan berbagai materi dan project di DQLab. Dalam setiap folder akan saya lampirkan dokumen markdown dan data yang digunakan dalam materi atau project yang bersangkutan.
-</p>
+ - [SQL](https://github.com/azwarerizal/dqlab-project/tree/master/SQL)
+ - Python soon...
+ - R soon ...
+## 🚀 About Me
+I'm a Junior Data Engineer ...
 
-<br />
 
----
+## License
+
+📃[udemy](https://www.udemy.com/certificate/UC-27e93998-4e3c-4697-9c0f-9a9db075e093/)
+
+📃[myskill](https://drive.google.com/file/d/1Wqu3jmaCgdJkeWwoZQQJRhU9ToV7b0or/view)
+
+📃[DQLab](https://academy.dqlab.id/Certificate_check_2/resultV2/DQLABSQLTSWUWCOK)
