@@ -1,6 +1,3 @@
-![App Screenshot](https://user-images.githubusercontent.com/118737997/205849089-5e886c94-0d99-4107-acb0-a87c956988a6.png)
-
-
 ## Project Data Engineer/Analyst
 
 Berikut adalah project-project latihan yang dikerjakan melalui beberapa platform
