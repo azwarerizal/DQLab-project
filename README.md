@@ -4,7 +4,7 @@ Berikut adalah project-project latihan yang dikerjakan melalui beberapa platform
 seperti Udemy, MySkill, DQLab
 
 
-## Project
+## 🌠 Project
 
 
 <details><summary>SQL</summary>
