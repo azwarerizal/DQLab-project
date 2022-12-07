@@ -10,9 +10,12 @@ seperti Udemy, MySkill, DQLab
 <details><summary>SQL</summary>
 
 
- + [[📂](https://github.com/azwarerizal/own-project/tree/master/SQL)]
-[[🔍](https://academy.dqlab.id/main/package/project/182?pf=0)] [[📃](https://academy.dqlab.id/certificate/pdf/DQLABPRJC4AFNDGQ)]
+ + [[📂](https://github.com/azwarerizal/own-project/tree/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report)]
+[[🔍](https://academy.dqlab.id/main/package/project/182?pf=0)] [[📃](https://academy.dqlab.id/certificate/pdf/DQLABPRJC4AFNDGQ)] Data Analysis for Retail Sales Performance Report
 
++ [[📂](https://github.com/azwarerizal/own-project/tree/master/SQL/Data%20Engineer%20Challenge%20with%20SQL)]
+[[🔍](https://academy.dqlab.id/main/projectcode/99/195/956?pr=0)] [[📃](https://academy.dqlab.id/certificate/pdf/DQLABSQLTSWUWCOK)] Data Engineer Challenge with SQL
+ 
  </details>
  
 <details><summary>Python</summary>
