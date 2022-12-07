@@ -1,22 +1,41 @@
-## Project Data Engineer/Analyst
+## Data Engineer/Analyst
 
 Berikut adalah project-project latihan yang dikerjakan melalui beberapa platform
 seperti Udemy, MySkill, DQLab
 
 
-## Materi
+## Project
 
- - [SQL](https://github.com/azwarerizal/dqlab-project/tree/master/SQL)
- - Python soon...
- - R soon ...
+
+<details><summary>SQL</summary>
+
+
+ + [[📂](https://github.com/azwarerizal/own-project/tree/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/Data)]
+[[🔍](https://academy.dqlab.id/main/package/project/182?pf=0)] [[📃](https://academy.dqlab.id/certificate/pdf/DQLABPRJC4AFNDGQ)] Project Data Analysis for Retail Sales Performance Report
+
+ </details>
+ 
+<details><summary>Python</summary>
+Soon
+</details>
+
+<details><summary>Data Visualization</summary>
+Soon
+</details>
+
+<details><summary>ETL Tools</summary>
+Soon
+</details>
+ 
+ 
 ## 🚀 About Me
 I'm a Junior Data Engineer ...
 
 
 ## License
 
-📃[udemy](https://www.udemy.com/certificate/UC-27e93998-4e3c-4697-9c0f-9a9db075e093/)
+[[📃](https://www.udemy.com/certificate/UC-27e93998-4e3c-4697-9c0f-9a9db075e093)] udemy
 
-📃[myskill](https://drive.google.com/file/d/1Wqu3jmaCgdJkeWwoZQQJRhU9ToV7b0or/view)
+[[📃](https://drive.google.com/file/d/1Wqu3jmaCgdJkeWwoZQQJRhU9ToV7b0or/view)] MySkill
 
-📃[DQLab](https://academy.dqlab.id/Certificate_check_2/resultV2/DQLABSQLTSWUWCOK)
+[[📃](https://academy.dqlab.id/Certificate_check_2/resultV2/DQLABSQLTSWUWCOK)] DQLab
