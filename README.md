@@ -10,7 +10,7 @@ seperti Udemy, MySkill, DQLab
 <details><summary>SQL</summary>
 
 
- + [[📂](https://github.com/azwarerizal/own-project/tree/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/Data)]
+ + [[📂](https://github.com/azwarerizal/own-project/tree/master/SQL)]
 [[🔍](https://academy.dqlab.id/main/package/project/182?pf=0)] [[📃](https://academy.dqlab.id/certificate/pdf/DQLABPRJC4AFNDGQ)] Project Data Analysis for Retail Sales Performance Report
 
  </details>
