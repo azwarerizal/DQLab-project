@@ -5,12 +5,9 @@
 
 - Overall performance DQLab by subcategory product yang akan dibandingkan antara tahun 2011 dan tahun 2012
 
- 
-
 - Efektifitas dan efisiensi promosi yang dilakukan selama ini, dengan menghitung burn rate dari promosi yang dilakukan overall berdasarkan tahun
 
 - Efektifitas dan efisiensi promosi yang dilakukan selama ini, dengan menghitung burn rate dari promosi yang dilakukan overall berdasarkan sub-category
-
 
 - Analisa terhadap customer setiap tahunnya
 
@@ -27,7 +24,7 @@
 </details>
 
 ---
-### 1.Overall Performance by Year
+### 1. Overall Performance by Year
 
 ![Capture.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/img/Capture.JPG?raw=true)
 
@@ -74,7 +71,7 @@ group by years
 order by years
 ```
 
-### 4.Promotion Effectiveness and Efficiency by Product Sub Category
+### 4. Promotion Effectiveness and Efficiency by Product Sub Category
 ![Capture-4.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/img/Capture-4.JPG?raw=true)
 
 ### Documentation
@@ -89,7 +86,7 @@ group by years, product_sub_category, product_category
 order by sales desc
 ```
 
-### 5.Customers Transactions per Year
+### 5. Customers Transactions per Year
 ![Capture-5.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/img/Capture-5.JPG?raw=true)
 
 
