@@ -1,1 +1,103 @@
 
+## Project Data Analysis for Retail Sales Performance Report
+
+- Overall performance DQLab Store dari tahun 2009 - 2012 untuk jumlah order dan total sales order finished
+
+- Overall performance DQLab by subcategory product yang akan dibandingkan antara tahun 2011 dan tahun 2012
+
+ 
+
+- Efektifitas dan efisiensi promosi yang dilakukan selama ini, dengan menghitung burn rate dari promosi yang dilakukan overall berdasarkan tahun
+
+- Efektifitas dan efisiensi promosi yang dilakukan selama ini, dengan menghitung burn rate dari promosi yang dilakukan overall berdasarkan sub-category
+
+
+- Analisa terhadap customer setiap tahunnya
+
+- Analisa terhadap jumlah customer baru setiap tahunnya
+
+- Cohort untuk mengetahui angka retention customer tahun 2009
+
+---
+
+### Overall Performance by Year
+
+
+
+## 
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+### Deployment
+
+To deploy this project run
+
+```sql
+SELECT YEAR(order_date) as years, sum(sales) as sales, count( order_quantity) as number_of_order
+FROM dqlab_sales_store
+WHERE order_status = 'Order finished'
+GROUP BY years
+ORDER BY years 
+```
+
+### Overall Performance by Product Sub Category
+
+##
+
+### Deployment
+
+To deploy this project run
+
+```sql
+select YEAR(order_date) as years, product_sub_category, sum(sales) as sales
+from dqlab_sales_store
+where order_status = 'order finished' and year(order_date) > 2010
+group by years, product_sub_category
+order by years, sales desc
+```
+
+### Promotion Effectiveness and Efficiency by Years
+
+##
+
+### Deployment
+
+To deploy this project run
+
+```sql
+select YEAR(order_date) as years,sum(sales) as sales, sum(discount_value) as promotion_value,
+round((sum(discount_value)/sum(sales))*100,2) as burn_rate_percentage
+from dqlab_sales_store
+where order_status ='order finished'
+group by years
+order by years
+```
+
+### Promotion Effectiveness and Efficiency by Product Sub Category
+
+### Deployment
+
+To deploy this project run
+
+```sql
+select YEAR(order_date) as years, product_sub_category, product_category, sum(sales) as sales, sum(discount_value) as promotion_value,
+round((sum(discount_value)/sum(sales))*100,2) as burn_rate_percentage
+from dqlab_sales_store
+where order_status ='order finished' and year(order_date) > 2011
+group by years, product_sub_category, product_category
+order by sales desc
+```
+
+### Customers Transactions per Year
+
+### Deployment
+
+To deploy this project run
+
+```sql
+select year(order_date) as years, count(distinct customer) as number_of_customer
+from dqlab_sales_store
+where order_status = 'order finished'
+group by years
+```
