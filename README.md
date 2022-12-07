@@ -32,7 +32,7 @@ Soon
  
  
 ## 🚀 About Me
-I'm a Junior Data Engineer ...
+I'm a humble guy, friendly, 💪 can work together ...
 
 
 ## License
