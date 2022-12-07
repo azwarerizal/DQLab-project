@@ -20,15 +20,14 @@
 
 ---
 
-### Overall Performance by Year
+### 1.Overall Performance by Year
 
-<img src="own-project/SQL/ProjectDataAnalysisforRetailSalesPerformanceReport/img/Capture.jpg">
+![Capture.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/img/Capture.JPG?raw=true)
 
 
 
-### Deployment
+### Documentation
 
-To deploy this project run
 
 ```sql
 SELECT YEAR(order_date) as years, sum(sales) as sales, count( order_quantity) as number_of_order
@@ -38,13 +37,12 @@ GROUP BY years
 ORDER BY years 
 ```
 
-### Overall Performance by Product Sub Category
+### 2. Overall Performance by Product Sub Category
 
-##
+![Capture-2.JPG](https://user-images.githubusercontent.com/118737997/206141027-a992d989-9b01-4d03-b5ac-56e4b1900e88.png)
 
-### Deployment
+### Documentation
 
-To deploy this project run
 
 ```sql
 select YEAR(order_date) as years, product_sub_category, sum(sales) as sales
@@ -54,13 +52,12 @@ group by years, product_sub_category
 order by years, sales desc
 ```
 
-### Promotion Effectiveness and Efficiency by Years
+### 3. Promotion Effectiveness and Efficiency by Years
 
-##
+![Capture-3.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/img/Capture-3.JPG?raw=true)
 
-### Deployment
+### Documentation
 
-To deploy this project run
 
 ```sql
 select YEAR(order_date) as years,sum(sales) as sales, sum(discount_value) as promotion_value,
@@ -71,11 +68,11 @@ group by years
 order by years
 ```
 
-### Promotion Effectiveness and Efficiency by Product Sub Category
+### 4.Promotion Effectiveness and Efficiency by Product Sub Category
+![Capture-4.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/img/Capture-4.JPG?raw=true)
 
-### Deployment
+### Documentation
 
-To deploy this project run
 
 ```sql
 select YEAR(order_date) as years, product_sub_category, product_category, sum(sales) as sales, sum(discount_value) as promotion_value,
@@ -86,11 +83,12 @@ group by years, product_sub_category, product_category
 order by sales desc
 ```
 
-### Customers Transactions per Year
+### 5.Customers Transactions per Year
+![Capture-5.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/img/Capture-5.JPG?raw=true)
 
-### Deployment
 
-To deploy this project run
+### Documentation
+
 
 ```sql
 select year(order_date) as years, count(distinct customer) as number_of_customer
@@ -98,3 +96,6 @@ from dqlab_sales_store
 where order_status = 'order finished'
 group by years
 ```
+
+<details
+[[📃](https://academy.dqlab.id/certificate/pdf/DQLABPRJC4AFNDGQ)]
