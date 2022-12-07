@@ -97,5 +97,9 @@ where order_status = 'order finished'
 group by years
 ```
 
-<details
-[[📃](https://academy.dqlab.id/certificate/pdf/DQLABPRJC4AFNDGQ)]
+<details><summary>Materi</summary>
+
+- [[📂](https://github.com/azwarerizal/own-project/tree/master/SQL/Project%20Data%20Analysis%20for%20Retail%20Sales%20Performance%20Report/Data)]
+[[🔍](https://academy.dqlab.id/main/package/project/182?pf=0)] [[📃](https://academy.dqlab.id/certificate/pdf/DQLABPRJC4AFNDGQ)] Project Data Analysis for Retail Sales Performance Report
+
+</details>
