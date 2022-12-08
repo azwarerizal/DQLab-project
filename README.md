@@ -3,7 +3,7 @@
 Berikut adalah project-project latihan yang dikerjakan melalui beberapa platform seperti Udemy, MySkill, DQLab dan lain-lain.
 
 
-## 🌠 Project
+## 📚 Project
 
 
 <details><summary>SQL</summary>
