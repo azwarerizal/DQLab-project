@@ -1,7 +1,6 @@
 ## Data Engineer/Analyst
 
-Berikut adalah project-project latihan yang dikerjakan melalui beberapa platform
-seperti Udemy, MySkill, DQLab
+Berikut adalah project-project latihan yang dikerjakan melalui beberapa platform seperti Udemy, MySkill, DQLab dan lain-lain.
 
 
 ## 🌠 Project
@@ -38,10 +37,16 @@ Soon
 I'm a humble guy, friendly, 💪 can work together ...
 
 
-## License
-
-[[📃](https://www.udemy.com/certificate/UC-27e93998-4e3c-4697-9c0f-9a9db075e093)] udemy
+## 🏆 achievements
+<details>
+ <summary>Certification</summary>
+ 
+[[📃](https://www.udemy.com/certificate/UC-27e93998-4e3c-4697-9c0f-9a9db075e093)] Udemy
 
 [[📃](https://drive.google.com/file/d/1Wqu3jmaCgdJkeWwoZQQJRhU9ToV7b0or/view)] MySkill
 
 [[📃](https://academy.dqlab.id/Certificate_check_2/resultV2/DQLABSQLTSWUWCOK)] DQLab
+
+[[📃](https://drive.google.com/file/d/1gWtUJj1aAlOrot6Mhs58zPLTmwlKxqkK/view?usp=sharing)] Inixindo
+ 
+ </details>
