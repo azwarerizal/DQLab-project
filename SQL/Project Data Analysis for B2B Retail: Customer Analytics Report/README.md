@@ -81,7 +81,7 @@ Selanjutnya untuk project ini, perhitungan pertumbuhan penjualan akan dilakukan 
 
 ### Apakah jumlah customers xyz.com semakin bertambah ?
 
-![capture-3.JPG]()
+![capture-3.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20B2B%20Retail:%20Customer%20Analytics%20Report/img/Capture-3.JPG?raw=true)
 
 ### Documentation
 
@@ -95,7 +95,7 @@ GROUP BY quarter;
 
 ### Seberapa banyak customers tersebut yang sudah melakukan transaksi ?
 
-![capture-4.JPG]()
+![capture-4.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20B2B%20Retail:%20Customer%20Analytics%20Report/img/Capture-4.JPG?raw=true)
 
 ### Documentation
 
@@ -114,7 +114,7 @@ GROUP BY quarter;
 
 ### Category produk apa saja yang paling banyak di-order oleh customers di Quarter-2 ?
 
-![capture-5.JPG]()
+![capture-5.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20B2B%20Retail:%20Customer%20Analytics%20Report/img/Capture-5.JPG?raw=true)
 
 ```mysql
 SELECT *
@@ -130,8 +130,16 @@ ORDER BY total_order DESC;
 ```
 
 ### Seberapa banyak customers yang tetap aktif bertransaksi setelah transaksi pertamanya ?
+Mengetahui seberapa banyak customers yang tetap aktif menunjukkan apakah xyz.com tetap digemari oleh customers untuk memesan kebutuhan bisnis mereka. Hal ini juga dapat menjadi dasar bagi tim product dan business untuk pengembangan product dan business kedepannya. Adapun metrik yang digunakan disebut retention cohort. Untuk project ini, kita akan menghitung retention dengan query SQL sederhana, sedangkan cara lain yaitu JOIN dan SELF JOIN akan dibahas dimateri selanjutnya :
 
-![capture-6.JPG]()
+Oleh karena baru terdapat 2 periode yang Quarter 1 dan Quarter 2, maka retention yang dapat dihitung adalah retention dari customers yang berbelanja di Quarter 1 dan kembali berbelanja di Quarter 2, sedangkan untuk customers yang berbelanja di Quarter 2 baru bisa dihitung retentionnya di Quarter 3.
+
+- Dari tabel orders_1, tambahkan kolom baru dengan value “1” dan beri nama “quarter”
+- Dari tabel orders_2, pilihlah kolom customerID, gunakan distinct untuk menghilangkan duplikasi
+- Filter tabel orders_1 dengan operator IN() menggunakan 'Select statement langkah 2', sehingga hanya customerID yang pernah bertransaksi di quarter 2 (customerID tercatat di tabel orders_2) yang diperhitungkan.
+- Hitunglah jumlah unik customers (tidak ada duplikasi customers) dibagi dengan total_ customers dalam percentage, pada Select statement dan beri nama “Q2”
+
+![capture-6.JPG](https://github.com/azwarerizal/own-project/blob/master/SQL/Project%20Data%20Analysis%20for%20B2B%20Retail:%20Customer%20Analytics%20Report/img/Capture-6.JPG?raw=true)
 
 ```mysql
 #Menghitung total unik customers yang transaksi di quarter_1
@@ -143,4 +151,14 @@ FROM
    orders_1 where customerid in (SELECT DISTINCT customerID FROM orders_2);
 ```
 
-###
+### Berdasarkan data yang tersedia, bagaimana analisa kamu terhadap performance xyz.com di quarter ke-2 ?
+
+Kesimpulan: 
+Berdasarkan data yang telah kita peroleh melalui query SQL, Kita dapat menarik kesimpulan bahwa :
+
+- Performance xyz.com menurun signifikan di quarter ke-2, terlihat dari nilai penjualan dan revenue yang drop hingga 20% dan 24%,
+- Perolehan customer baru juga tidak terlalu baik, dan sedikit menurun dibandingkan quarter sebelumnya.
+- Ketertarikan customer baru untuk berbelanja di xyz.com masih kurang, hanya sekitar 56% saja yang sudah bertransaksi. Disarankan tim Produk untuk perlu mempelajari behaviour customer dan melakukan product improvement, sehingga conversion rate (register to transaction) dapat meningkat.
+- Produk kategori S18 dan S24 berkontribusi sekitar 50% dari total order dan 60% dari total penjualan, sehingga xyz.com sebaiknya fokus untuk pengembangan category S18 dan S24.
+- Retention rate customer xyz.com juga sangat rendah yaitu hanya 24%, artinya banyak customer yang sudah bertransaksi di quarter-1 tidak kembali melakukan order di quarter ke-2 (no repeat order).
+- xyz.com mengalami pertumbuhan negatif di quarter ke-2 dan perlu melakukan banyak improvement baik itu di sisi produk dan bisnis marketing, jika ingin mencapai target dan positif growth di quarter ke-3. Rendahnya retention rate dan conversion rate bisa menjadi diagnosa awal bahwa customer tidak tertarik/kurang puas/kecewa berbelanja di xyz.com.
