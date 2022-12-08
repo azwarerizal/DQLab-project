@@ -31,11 +31,13 @@ Soon
 <details><summary>ETL Tools</summary>
 Soon
 </details>
- 
+
+---
  
 ## 🚀 About Me
 I'm a humble guy, friendly, 💪 can work together ...
 
+---
 
 ## 🏆 achievements
 <details>
@@ -50,3 +52,5 @@ I'm a humble guy, friendly, 💪 can work together ...
 [[📃](https://drive.google.com/file/d/1gWtUJj1aAlOrot6Mhs58zPLTmwlKxqkK/view?usp=sharing)] Inixindo
  
  </details>
+ 
+ ---
