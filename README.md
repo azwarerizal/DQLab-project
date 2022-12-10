@@ -28,7 +28,7 @@ Soon
 Soon
 </details>
 
-<details><summary>ETL Tools</summary>
+<details><summary>ETL</summary>
 Soon
 </details>
 
